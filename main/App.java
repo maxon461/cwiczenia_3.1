@@ -21,6 +21,6 @@ public class App {
         ArrayList<Integer> list = new ArrayList<>();
         list = num_operations.even_num(arr);
         displays.display_list(list);
-
+        
     }
 }
