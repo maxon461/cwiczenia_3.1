@@ -13,6 +13,7 @@ public class num_operations {
         System.out.println("max is: " + res);
     }
 
+    
     public static void min(int[] arr) {
         int res = 100;
         for (int i = 0; i < arr.length; i++) {
@@ -23,6 +24,7 @@ public class num_operations {
         System.out.println("min is: " + res);
     }
 
+
     public static void average(int[] arr) {
         double res = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -32,7 +34,9 @@ public class num_operations {
         System.out.println("average is: " + res);
     }
 
+
     public static ArrayList<Integer> even_num(int[] arr) {
+        Arrays.sort(arr);
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {

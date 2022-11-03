@@ -14,13 +14,13 @@ public class App {
     public static void main(String[] args) {
         int[] arr = new int[100];
         fill_arr(arr);
-        displays.display_arr(arr);
+        displays.display(arr);
         num_operations.max(arr);
         num_operations.min(arr);
         num_operations.average(arr);
         ArrayList<Integer> list = new ArrayList<>();
         list = num_operations.even_num(arr);
-        displays.display_list(list);
+        displays.display(list);
         
     }
 }
